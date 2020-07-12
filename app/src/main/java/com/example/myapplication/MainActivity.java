@@ -179,7 +179,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
             case R.id.btn_dot:
                 if (decimal) {
-                    //do nothing or you can show the error
                 } else {
                     t1.setText(t1.getText() + ".");
                     decimal = false;
